@@ -43,6 +43,7 @@
       "runtime" : {
          "requires" : {
             "SQL::Translator" : "0",
+            "Template" : "0",
             "perl" : "5.008001"
          }
       },
@@ -55,7 +56,7 @@
    "provides" : {
       "SQL::Translator::Producer::PlantUML" : {
          "file" : "lib/SQL/Translator/Producer/PlantUML.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -69,6 +70,6 @@
          "web" : "https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_authority" : "cpan:HIMACHOCO"
 }

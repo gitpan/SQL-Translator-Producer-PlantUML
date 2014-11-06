@@ -26,13 +26,14 @@ no_index:
 provides:
   SQL::Translator::Producer::PlantUML:
     file: lib/SQL/Translator/Producer/PlantUML.pm
-    version: '0.02'
+    version: '0.03'
 requires:
   SQL::Translator: '0'
+  Template: '0'
   perl: '5.008001'
 resources:
   bugtracker: https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML/issues
   homepage: https://github.com/mix3/p5-SQL-Translator-Producer-PlantUML
   repository: git://github.com/mix3/p5-SQL-Translator-Producer-PlantUML.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:HIMACHOCO
